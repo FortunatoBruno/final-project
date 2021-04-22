@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
     <head>
         <!-- Document information -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device=width, initial-scale=1.0">
         <title>Final Project</title>
+        
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    
 
         <script src="https://kit.fontawesome.com/10cd49e6b3.js" crossorigin="anonymous"></script>
     </head>
@@ -13,8 +17,11 @@
     <body> <!-- document content -->
         <header>
             <nav>
-                <div class="container">
-                    <img src="images/logo.png" alt="Three Star Media Logo">
+                <div class="container"> <!-- background grey-->
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Three Star Media Logo">
+                    </div>
+
                     <ul>
                         <li class="current"><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
@@ -22,25 +29,30 @@
                         <li><a href="#">Team</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                        
-                    <form>
-                        <input type="text" id="search" name="search">
-                        <button><i class="far fa-search"></i></button>
-                    </form>
+                    
+                    <div class="search">
+                        <form>
+                            <input type="text" id="search" placeholder="Search" name="search">
+                            <button><i class="far fa-search"></i></button>
+                        </form>
+                    </div>
                 </div> <!-- end nav container-->
             </nav>
             
             <!-- =======INTRO====== -->
             <div class="intro">
                 <div class="container">
-                    <h1>Welcome to Three Star Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, rescusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur! </p>
-                    <button>Connect with us <span class="icon">&#9654;</span></button>
+                    <div class="container-text">
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur! </p>
+                        <button>Connect with us <span class="icon">&#9654;</span></button>
+                    </div> <!-- end contaier-text -->
                 </div> <!-- end container -->
             </div> <!-- end intro -->
         </header>
         
         <main>
+            <!-- ========== ABOUT ========== -->
             <section class="about">
                 <div class="container"> <!--background orange-->
                     <img src="images/about-us.jpg" alt="A ping-pong table in an office lounge.">
@@ -50,50 +62,51 @@
                 </div>
             </section> <!-- end about -->
             
+            <!-- ========== SERVICES ========== -->
             <section class="services">
                 <div class="container"> <!-- background white -->
                     <h2>Our Services</h2>
                 
                     <div class="grid-container">
-                        <div class="digital">
-                            <div class="container">
-                                <img src="images/digital.jpg" alt="A man using a computer and a cellphone on the desk.">
+                        <div class="grid-service">
+                            <img src="images/digital.jpg" alt="A man using a computer and a cellphone on the desk.">
+                            <div class="container-service">
                                 <h3>Digital Transformation</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                                 <button>Digital Plans <span class="icon">&#9654;</span></button>
                             </div>
                         </div>
                 
-                        <div class="marketing">
-                            <div class="container">
-                                <img src="images/marketing.jpg" alt="A computer opened on the desk.">
+                        <div class="grid-service">
+                            <img src="images/marketing.jpg" alt="A computer opened on the desk.">
+                            <div class="container-service">
                                 <h3>Marketing</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                                 <button>Marketing Plans <span class="icon">&#9654;</span></button>
                             </div>
                         </div>
 
-                        <div class="video">
-                            <div class="container">
-                                <img src="images/video.jpg" alt="A man holding a cellphone with youtube logo on screen.">
+                        <div class="grid-service">
+                            <img src="images/video.jpg" alt="A man holding a cellphone with youtube logo on screen.">
+                            <div class="container-service">
                                 <h3>Video Production</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                                 <button>Video Plans <span class="icon">&#9654;</span></button>
                             </div>
                         </div>
 
-                        <div class="web">
-                            <div class="container">
-                                <img src="images/web.jpg" alt="A cellphone showinhg a instagram page screen.">
+                        <div class="grid-service">
+                            <img src="images/web.jpg" alt="A cellphone showinhg a instagram page screen.">
+                            <div class="container-service">
                                 <h3>Web Development</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                                 <button>Web Plans <span class="icon">&#9654;</span></button>
                             </div>
                         </div>
 
-                        <div class="print">
-                            <div class="container">
-                                <img src="images/print.jpg" alt="A set of newspapers boxes on street.">
+                        <div class="grid-service">
+                            <img src="images/print.jpg" alt="A set of newspapers boxes on street.">
+                            <div class="container-service">
                                 <h3>Print</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                                 <button>Print Plans <span class="icon">&#9654;</span></button>
@@ -103,38 +116,46 @@
                 </div> <!-- end container -->
             </section> <!-- end services -->
 
+            <!-- ========== VISION ========== -->
             <section class="vision">
                 <div class="container">
                     <h3>Our Vision</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatem deleniti iure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fugiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
-                    <button>Learn More <span class="icon">&#9654;</span></button>
-                </div>
+                    <button>Learn More <span class="icon">&#9654;</span></button> <!-- ========================ADD BORDER IN THIS BUTTON========================= -->
+                </div> <!-- end container -->
             </section> <!-- end vision -->
         
+            <!-- ========== TEAM ========== -->
             <section class="team">
                 <div class="grid-container">
-                    <div>
-                        <img src="images/john.jpg" alt="A John`s portrait photo.">
-                    </div>
+                    <h2>Our Team</h2>
+                    <div class="grid-row">
+                        <div class="grid-item grid-item-img">
+                            <img src="images/john.jpg" alt="A John`s portrait photo.">
+                        </div> <!--end grid-item-->
 
-                    <div>
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
-                    </div>
+                        <div class="grid-item-txt">
+                            <h3>John Doe</h3>
+                            <h4>CEO and Co-owner</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                        </div> <!--end grid-item-->
+                    </div> <!--end grid-row-->
 
-                    <div>
-                        <img src="images/bob.jpg" alt="A Bob`s portrait photo.">
-                    </div>
+                    <div class="grid-row grid-row-reverse">
+                        <div class="grid-item grid-item-img">
+                            <img src="images/bob.jpg" alt="A Bob`s portrait photo.">
+                        </div> <!-- end grid-item-->
 
-                    <div>
-                        <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
-                    </div>
+                        <div class="grid-item-txt">
+                            <h3>Bob Rite</h3>
+                            <h4>CFO and Co-owner</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                        </div> <!-- end grid-item-->
+                    </div> <!-- end grid-row -->
                 </div> <!-- end grid-container --> 
             </section> <!-- end team -->
             
+            <!-- ========== CONTACT ========== -->
             <section class="contact">
                 <div class="grid-container">
                     <div>
@@ -151,26 +172,22 @@
                             <input type="text" id="email" name="email"><br>
 
                             <label for="message">Message</label><br>
-                            <textarea id="message" rows="10" cols="30"></textarea><br>
+                            <textarea id="message"></textarea><br>
 
                             <button class="button" type="button">Send</button>
                         </form>
                     </div>
 
-                    <div class="map">
-                        <h3>Location</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22432.321254395734!2d-75.77403270149455!3d45.348001643699064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1617662812653!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
                     <div class="container">
-                        <h3>Ours of operation</h3>
+                        <h3>Hours of operation</h3>
                         <table class="table">
                             <thead>
                                 <tr>
-                                <th>Days</th>
-                                <th>Hours</th>
+                                    <th>Days</th>
+                                    <th>Hours</th>
                                 </tr>
                             </thead>
+                            
                             <tbody>
                                 <tr>
                                     <td>Monday-Friday</td>
@@ -182,6 +199,11 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div> <!-- end container -->
+
+                    <div class="map">
+                        <h3>Location</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22432.321254395734!2d-75.77403270149455!3d45.348001643699064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1617662812653!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div> <!-- end grid-container -->
             </section> <!-- end contact -->
