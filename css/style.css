@@ -59,8 +59,8 @@ body {
 	}
 
 h1 {
-	font-size: 71px; /*ok */
-	line-height: 106px; /* ok */
+	font-size: 71px;
+	line-height: 106px;
 	font-weight: bold;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	color: white;
@@ -90,22 +90,22 @@ p {
 
 /*HEADER*/
 
-header nav {  /*OK*/
+header nav {
 	background:#222;
 	padding: 14px;
 	}
 
-header nav .logo{ /*OK*/
+header nav .logo {
 	background: #c78b06;
 	padding: 18px 0px 17px 1px;
 	}
 
-header nav ul li.current a { /*OK*/
+header nav ul li.current a {
 	background: #c78b06;
 	color: #222;
 	}
 
-header nav ul li a { /*OK*/
+header nav ul li a {
 	display: block;
 	color: #c78b06;
 	font-size: 18px; 
@@ -122,7 +122,7 @@ header nav .search form {
 		width: 100%;
 	}
 
-.search input[type="text"]	{ /* OK */
+.search input[type="text"]	{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	padding-left: 5px;
@@ -131,7 +131,7 @@ header nav .search form {
 	border: 1px solid black;
 	}
 	
-.search button { /* OK */
+.search button {
 	font-size: 24px;
 	width: 40Px;
 	height: 42px;
@@ -150,17 +150,17 @@ header .intro {
 	min-height: 100%;
 	}
 
-.intro .container{ /* OK */
+.intro .container{
 	background-color: rgb(0, 0, 0, 0.6);
 	margin: 68px 0px 67px 0px;
 	width: 100%;
 	}
 
-.intro .container .container-text{ /* OK */
+.intro .container .container-text{
 	padding: 50px 14px 14px 14px;
 	}
 
-.intro .container p { /* OK */
+.intro .container p {
 	padding-top: 18px;
 	padding-bottom: 14px;
 	color: white;
@@ -183,27 +183,27 @@ header .intro {
 
 	/*========ABOUT US==========*/
 
-.about { /* OK */
+.about {
 	background: #ffe6ac;
 	padding-bottom: 16px;
 	}
 
-.about .container { /* OK */
+.about .container {
 	padding-left: 14px;
 	padding-right: 14px;
 	}
 	
-.about .container img { /* OK */
+.about .container img {
 	padding-top: 14px;
 	width: 100%;
 	}
 
-.about .container h2 { /* OK */
+.about .container h2 {
 	padding-top: 33px;
 	padding-bottom: 25px;
 	}
 
-.about .container p {/* OK */
+.about .container p {
 	padding-bottom: 13px;
 	}
 
@@ -213,7 +213,7 @@ header .intro {
 	padding: 48px 14px 0px 14px;
 	}
 
-.services .container .grid-container { /* ok */
+.services .container .grid-container {
 	padding-top: 23px;
 	}
 
@@ -292,7 +292,7 @@ header .intro {
 
 /*===========TEAM============*/
 
-.team { /* OK */
+.team {
 	margin-top: 48px;
 	padding-right: 14px;
 	padding-left: 14px;
@@ -302,7 +302,7 @@ header .intro {
 	width: 100%;
 	}
 
-.team .grid-container h2 { /* OK */
+.team .grid-container h2 {
 	padding-bottom: 23px;
 	}
 
@@ -310,24 +310,24 @@ header .intro {
 	margin-bottom: 14px;
 }
 
-.team .grid-container .grid-row .grid-item-txt { /* OK */
+.team .grid-container .grid-row .grid-item-txt {
 	background: #ffe6ac;
 	padding-top: 20px;
 	padding-left: 14px;
 	padding-right: 14px;
 	}
 
-.team .grid-container .grid-row .grid-item-txt h3{ /* OK */
+.team .grid-container .grid-row .grid-item-txt h3{
 	padding-bottom: 10PX;
 	}
 
-.team .grid-container .grid-row .grid-item-txt h4{ /* OK */
+.team .grid-container .grid-row .grid-item-txt h4{
 	font-weight: bold;
 	border-bottom: 2px solid #c78b06;
 	padding-bottom: 4px;
 	}
 
-.team .grid-container .grid-row .grid-item-txt p{ /* OK */
+.team .grid-container .grid-row .grid-item-txt p{
 	padding-top: 14px;
 	padding-bottom: 28px ;
 	}
@@ -340,11 +340,6 @@ header .intro {
 	padding-right: 14px;
 	padding-left: 14px;
 	}
-
-/*.contact .grid-container {
-	padding-right: 14px;
-	padding-left: 14px;
-	}*/
 
 .contact .grid-container .form {
 	margin-top: 35px;
@@ -434,7 +429,6 @@ footer {
 	}
 	
 footer p, a {
-	/*padding-right: 32px;*/
 	line-height: 2.5;
 	color: #c78b06;
 	}
