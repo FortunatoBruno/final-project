@@ -806,27 +806,25 @@ footer p, a {
 	
 	.contact {
 		width: 1200px;
-		margin: 65px auto auto auto;
+		margin: 67px auto auto auto;
 		padding-right: 14px;
 		padding-left: 14px;
 		}
 
 	.contact .grid-container {
-		margin-top: 10px;
+		margin-top: 0;
 		margin-bottom: 17px;
-		padding-right: 0x;
+		padding-right: 0;
 		padding-left: 0;
 		display: grid;
 		align-self: center;
-		grid-gap: 16px;
+		grid-gap: 6px;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 10% 60% 30%;
-		/*width: auto;
-		height: auto;*/
 		}
 	
-	.contact .grid-container .container {
-		padding: 0 14px 0 14px;
+	.contact .grid-container .container h2 {
+		padding-left: 14px;
 	}
 
 	.contact .grid-container .container:nth-child(1) {
@@ -851,7 +849,7 @@ footer p, a {
 	
 	.contact .grid-container .form {
 		margin-top: 10px;
-		padding: 0;
+		padding: 0 14px 0 14px;
 		}
 	
 	.contact .grid-container .form form {
@@ -859,7 +857,7 @@ footer p, a {
 		}
 	
 	.contact .grid-container .form form input {
-		width: 100%;
+		width: 569px;
 		height: 30px;
 		}
 
@@ -869,28 +867,28 @@ footer p, a {
 	
 	#fname {
 		margin-top: 8px;
-		margin-bottom: 11px;
+		margin-bottom: 12px;
 		}
 	
 	#email {
 		margin-top: 8px;
-		margin-bottom: 11px;
+		margin-bottom: 12px;
 		}
 	
 	.contact .grid-container .form form textarea {
 		margin-top: 8px;
-		margin-bottom: 19px;
-		width: 100%;
+		margin-bottom: 22px;
+		width: 570px;
 		height: 144px;
 		}
 	
 	.contact .grid-container form button {
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 20px;
+		font-size: 24px;
 		color: #c78b06;
 		background: #222;
 		border: 1px solid black;
-		padding: 5px 7px 3px 5px;
+		padding: 5px 5px 3px 5px;
 		}
 	
 	.contact .grid-container .container {
@@ -908,9 +906,10 @@ footer p, a {
 		}
 	
 	.contact .grid-container .container .table th, td {
+		font-size: 16px;
 		border: 1px solid black;
-		padding-top: 18px;
-		padding-bottom: 17px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		}
 	
 	.contact .grid-container .container .table th {
@@ -918,20 +917,18 @@ footer p, a {
 		}
 	
 	.contact .grid-container .container .table td {
-		padding-left: 14px;
+		padding-left: 16px;
 		}
 	
-	.contact .grid-container .map iframe {
-		width: 100%
+	.contact .grid-container .map{
+		padding: 9px 0 0 0;
 		}
 
-	.map {
-		padding-top: 9px;
-	}
-	
-	.map iframe {
+	.contact .grid-container .map iframe {
+		width: 576px;
 		padding-top: 4px;
 		}
+
 	
 	/*===========FOOTER=============*/
 	
